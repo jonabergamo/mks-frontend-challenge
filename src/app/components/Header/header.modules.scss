@@ -1,0 +1,45 @@
+
+$primary-color: #0f52ba;
+
+.container {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 6rem;
+  justify-content: space-between;
+  background: $primary-color;
+  padding-inline: 25px;
+}
+
+
+
+.cart-button {
+  color: black;
+  font-weight: 700;
+  background-color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  border: none;
+  padding: 10px;
+  padding-inline: 15px;
+  display: flex;
+  gap: 10px;
+  font-size: 18px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+
+  &:active {
+    transform: scale(0.95);
+  }
+}
+
+.cart-icon {
+  width: 20px;
+  height: 20px;
+}
